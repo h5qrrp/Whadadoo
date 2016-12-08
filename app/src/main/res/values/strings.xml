@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Whadadoo</string>
+    <string name="search_text">Search</string>
+    <string name="nav_button">Navigate</string>
+    <string name="search_button">Search</string>
+    <string name="random_button">Random</string>
+    <color name="red">#ff0000</color>
+
+</resources>
