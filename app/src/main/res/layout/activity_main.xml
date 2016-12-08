@@ -30,31 +30,33 @@
             android:dividerHeight="0dp"
             android:background="#111"/>
     </android.support.v4.widget.DrawerLayout>
-
+<!-- App bar -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
         <ImageButton
             android:layout_width="50dip"
             android:layout_height="50dip"
             android:scaleType="fitXY"
-            android:src="@drawable/options_icon"
+            android:src="@drawable/ic_menu_black_24dp"
             style="?android:attr/borderlessButtonStyle"/>
             <!--android:onClick="nav_button"-->/>
+
         <EditText
             android:id="@+id/edit_message"
             android:layout_centerInParent="true"
             android:layout_weight="1"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
             android:hint="@string/search_text" />
 
         <ImageButton
             android:layout_width="50dip"
             android:layout_height="50dip"
             android:scaleType="fitXY"
-            android:src="@drawable/search_icon1"
+            android:src="@drawable/ic_search_black_24dp"
             style="?android:attr/borderlessButtonStyle"/>
             <!--android:onClick="search_button"-->/>
 
@@ -62,8 +64,9 @@
             android:layout_width="50dip"
             android:layout_height="50dip"
             android:scaleType="fitXY"
-            android:src="@drawable/dice_icon"
+            android:src="@drawable/ic_shuffle_black_24dp"
             style="?android:attr/borderlessButtonStyle"/>
             <!--android:onClick="random_button"-->/>
+<!-- Nav bar end -->
     </LinearLayout>
 </RelativeLayout>
